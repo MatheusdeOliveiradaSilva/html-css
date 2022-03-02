@@ -1,9 +1,10 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
-    font-family:'doridrobot';
-    src: url('/fontes/doridrobot.ttf') format('opentyoe');
+    font-family:'idroid';
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
+
 }
 /* a minha font-android não pegou não sei porque somente na primeira vez que fiz junto com ele depois não pegou mais
 
@@ -25,7 +26,7 @@ tentei mudar o nome mais tambem não consegui */
 
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque:'Bebas Neue', cursive;
-    --font-android:'Android' 'cursive';
+    --font-android:'idroid', cursive ;
     
 }
 
@@ -135,7 +136,7 @@ main h1{
 
 main h2{
     background-image: linear-gradient(to right, var(--cor01), transparent);
-    font-family: var(--font-destaque);
+    font-family:var(--font-destaque);
     color: var(--cor04);
     font-size: 1.3em;
     font-weight: normal;
